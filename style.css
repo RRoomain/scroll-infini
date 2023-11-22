@@ -1,0 +1,36 @@
+body{
+    /* display : grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: 
+    "first second third"
+    "fourth fifth six"; */
+}
+div{
+    width: 100%;
+}
+grid1{
+    grid-area: first;
+    background: red;
+}
+grid2{
+    grid-area: second;
+    background: blue;
+}
+grid3{
+    grid-area: third;
+    background: red;
+}
+grid4{
+    grid-area: fourth;
+    background: blue;
+}
+grid5{
+    grid-area: fifth;
+    background: red;
+}
+grid6{
+    grid-area: six;
+    background: blue;
+}
+
